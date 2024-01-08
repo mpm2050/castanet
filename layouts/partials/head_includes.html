@@ -44,7 +44,8 @@
     <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
 <link href={{"css/all.css" | absURL }} rel="stylesheet">
-<link href={{"css/mediaelementplayer.min.css" | absURL }} rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/7.0.2/mediaelementplayer.min.css" integrity="sha512-7D82/+kVzJhvYhr5k2+TueNVDAoZA4MAklU9vjupYEAnLx97qV3UFZQZgwaD6dPSAEEIiQXBDkK0Wh5BMTUFBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <style>
     .mejs__overlay-button {
         background-image: url("/img/mejs-controls.svg");
@@ -56,7 +57,7 @@
         background-image: url("/img/mejs-controls.svg");
     }
     </style>
-<link href={{"css/speed.min.css" | absURL }} rel="stylesheet">
+
 {{ if eq .Section "blog" }}
     <link rel="alternate" type="application/rss+xml" title="{{$.Site.Title}}" href="{{"blog/index.xml" | absURL }}"/>
 {{ else }}

@@ -8,10 +8,7 @@ var scripts = [
     'node_modules/jquery/dist/jquery.js',
     'node_modules/bootstrap/dist/js/bootstrap.js',
     'node_modules/jssocials/dist/jssocials.js',
-    'static/js/castanet.js',
-    'node_modules/mediaelement/build/mediaelement-and-player.js',
-    'node_modules/mediaelement-plugins/dist//speed/speed.js',
-    'node_modules/mediaelement-plugins/dist//speed/speed-i18n.js'
+    'static/js/castanet.js'
 
 ]
 
